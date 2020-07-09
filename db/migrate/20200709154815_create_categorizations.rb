@@ -4,7 +4,7 @@ class CreateCategorizations < ActiveRecord::Migration[5.2]
       t.belongs_to :book, null: false
       t.belongs_to :category, null: false
 
-      t.timestamps
+      t.timestamps 
     end
   end
 end

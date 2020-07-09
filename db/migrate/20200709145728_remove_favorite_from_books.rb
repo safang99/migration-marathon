@@ -3,7 +3,7 @@ class RemoveFavoriteFromBooks < ActiveRecord::Migration[5.2]
     remove_column :books, :favorite
   end
 
-  def down
+  def down 
     add_column :books, :favorite, :boolean, default: false
-  end
+  end 
 end

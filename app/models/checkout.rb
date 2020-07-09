@@ -1,5 +1,5 @@
 class Checkout < ActiveRecord::Base
-    validates :name, presence: true
-
-    belongs_to :book
+  belongs_to :book
+  
+  validates :name, presence: true
 end
